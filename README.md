@@ -37,10 +37,10 @@ The pipeline is organized into three sequential stages, the first two of which a
 │
 ├── LLM/                            # Qwen3-Embedding-0.6B weights  → https://huggingface.co/Qwen/Qwen3-Embedding-0.6B
 ├── dataset/                        # WiSig / LoRa datasets         → https://cores.ee.ucla.edu/downloads/datasets/wisig/
-├── ctx_cache/                      # Precomputed ctx_vec (.npz)    → xx
-├── weights_vqvae/                  # Stage-1 VQ-VAE checkpoints    → xx
-├── weights_mm/                     # Stage-3 fusion checkpoints    → xx
-└── logs/                           # Sweep / training logs         → xx
+├── ctx_cache/                      # Precomputed ctx_vec (.npz)    → https://pan.baidu.com/s/11j93oF100J1sj3TkNivFsg?pwd=kvwd
+├── weights_vqvae/                  # Stage-1 VQ-VAE checkpoints    → https://pan.baidu.com/s/11j93oF100J1sj3TkNivFsg?pwd=kvwd
+├── weights_mm/                     # Stage-3 fusion checkpoints    → https://pan.baidu.com/s/11j93oF100J1sj3TkNivFsg?pwd=kvwd
+└── logs/                           # Sweep / training logs         → https://pan.baidu.com/s/11j93oF100J1sj3TkNivFsg?pwd=kvwd
 ```
 
 > **Note:** The directories `LLM/`, `dataset/`, `ctx_cache/`, `weights_vqvae/`, `weights_mm/`, and `logs/` are empty in this repository. Their contents (model weights, datasets, caches, and logs) are hosted on a netdisk — download and place them under the corresponding paths before running.
